@@ -1,0 +1,11 @@
+1. Short - Short is a type of integer that uses 2 bytes of storage, it can contain any integers in the range -32,768 to 32,76
+   Int - Int uses either 2 or 4 bytes of storage, it can contain any integer between -32,768 and 32,767 or -2,147,483,648 and 2,147,483,647 depending on if the int is a short or long.
+   Float - A float is a floating point data type, it uses 4 bytes of storage and can contain any number between 1.2E-38 and 3.4E+38 with a precision of 6 decimal places.
+   Double - A double is a floating point data type, it uses 8 bytes of storage and can contain any number between 2.3E-308 to 1.7E+308 with a precision of 15 decimals.
+   
+2. 7.5
+
+3. int i = 0;
+   int j = 0;
+   int x = 1;
+   int y = 1;
