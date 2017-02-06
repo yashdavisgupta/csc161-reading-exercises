@@ -1,0 +1,31 @@
+1. The code snippit will always return 'd' if the grade is above 60. This is a result of the if statements being exclusive and therefore
+   the last (if grade greater than 60%) will be the last to execute and be the letter displayed. In addition because grades start at the
+   first number in the range (60, 70, 80, 90) it needs to be EQUAL to or greater than.
+
+<code>
+  // In grade.c
+#include <stdio.h>
+
+int main(void) {
+    int grade = 60;
+    char letter = 'f';    /* by default... */
+
+    if (grade >= 90) {
+        letter = 'a';
+    }
+    else if (grade >= 80) {
+        letter = 'b';
+    }
+    else if (grade >= 70) {
+        letter = 'c';
+    }
+    else if (grade >= 60) {
+        letter = 'd';
+    }
+    else {
+        letter = 'f';
+    }
+    printf("%c\n", letter);
+    return 0;
+}
+</code>
