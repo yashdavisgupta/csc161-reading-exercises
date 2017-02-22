@@ -1,0 +1,4 @@
+1. 10011001
+2. 010011001
+3. ™
+4. Char is a int type so in memory it is stored as 0x10011001 and to us it is stored as 153.
